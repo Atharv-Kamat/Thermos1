@@ -41,4 +41,7 @@ public class Thermos {
 		System.out.println("Liquid name is " + Liquid);
 	}
 	
+	public void addLiquid() {
+		Liquid = Liquid + 1;
+	}
 }
